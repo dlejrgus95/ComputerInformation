@@ -7,8 +7,8 @@
 header .logo {position: absolute; top: 5px; left: 10px;}
 /* menu */
 .header .menu {text-align: center; font-size: 0; background: #fff;}
-.header .menu li {display: inline-block; font-size: 18px; position: relative; width: 200px; padding: 20px 0;}
-.header .menu li a:hover {color: #174cb8;}
+.menu li {display: inline-block; font-size: 18px; position: relative; width: 200px; padding: 20px 0;}
+.menu li a:hover {color: #174cb8;}
 .header .menu li .submenu {display: none; position: absolute; left: 0; top: 60px; z-index: 99; background: #fff;}
 .header .menu li .submenu li {display: block; font-size: 16px; border: 1px solid #eee; border-top: 0;}
 .header .menu li .submenu li:hover {background: #174cb8; transition: all .2s;}
@@ -35,17 +35,14 @@ header .logo {position: absolute; top: 5px; left: 10px;}
 .notice article h1 {text-align: left; font-size: 40px; color: #1c5ad7; padding: 10px 0;}
 .notice article p {font-size: 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-top: 1px solid #ddd; padding: 25px 0;}
 .notice article p:first-of-type {border-top: 5px solid #1c5ad7;}
-
 /* banner */
 .banner {font-size: 0; background-image: url("../img/banner.jpg"); min-height: 150px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}
-
 /* major */
 #major {background: url(../img/major_bg.png);}
 .major {text-align: center; font-size: 0; padding: 40px 0;}
 .major .m_con {width: 33.33%; height: 160px; display: inline-block; text-align: center;}
 .major .m_con p {font-size: 15px; padding: 40px 0;}
 .major .m_con p strong {font-size: 18px;}
-
 /* leaflet */
 .leaflet {position: relative;}
 .leaflet .slick-prev, .leaflet .slick-next {position: absolute; top: 250px; background: url(../img/leaflet_btn.png) no-repeat; width: 45px; height: 70px; text-indent: -9999px; cursor: pointer; z-index: 9;}
@@ -58,4 +55,4 @@ header .logo {position: absolute; top: 5px; left: 10px;}
 footer {background: #1d3566;}
 .footer {color: #fff; text-align: center; font-size: 0;}
 .footer ul li {display: inline-block; padding: 15px 20px; font-size: 13px;}
-.footer p {font-size: 13px;}
+.footer p {font-size: 13px; margin: 0;}

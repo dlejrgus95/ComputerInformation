@@ -26,3 +26,6 @@ h1, h2, h3, h4, h5, h6 {font-size: 13px; font-weight: normal;}
 
 /* 버튼 클릭 시 아웃라인 X */
  *:focus {outline:none;}
+
+ /* iframe 초기화 */
+ iframe {display: block; width: 100%;}
