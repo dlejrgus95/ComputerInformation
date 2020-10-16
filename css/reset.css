@@ -7,6 +7,7 @@ body, div, ul, li, dl, dd, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, lege
 a {text-decoration: none; color: #444;}
 
 /* 폰트 초기화 */
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css">
 body, input, textarea, select, button, table {font-family: 'NanumBarunGothic', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color: #444; font-size: 13px;}
 
 /* 폰트 스타일 초기화 */
