@@ -15,7 +15,7 @@ header .logo {position: absolute; top: 5px; left: 10px;}
 .header .menu li .submenu li:hover a {color: #fff; transition: all .2s;}
 .header .menu li:hover .submenu {display: block;}
 /* main */
-.header .main {background: url(img/main3.png) no-repeat; height: 200px;}
+.header .main {background: url('img/main3.png') no-repeat; height: 200px;}
 
 /* contents */
 .contents {font-size: 0; text-align: center; position: relative;}
