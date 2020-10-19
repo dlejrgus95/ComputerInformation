@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 .contents .page_content .tab_content {margin-top: 50px;}
@@ -13,3 +14,20 @@ input[id="tab02"]:checked ~ .con2 {display: block;}
 input[id="tab03"]:checked ~ .con3 {display: block;}
 input[id="tab04"]:checked ~ .con4 {display: block;}
 input[id="tab05"]:checked ~ .con5 {display: block;}
+=======
+@charset "utf-8";
+
+.contents .page_content .tab_content {margin-top: 50px;}
+.contents .page_content .tab_content input[type="radio"] {display: none;}
+.contents .page_content .tab_content input[type="radio"] + label:first-of-type {border-left: 1px solid #eee;}
+.contents .page_content .tab_content input[type="radio"] + label {font-size: 17px; display: inline-block; padding: 20px; width: 170px; cursor: pointer; border-bottom: 3px solid #174cb8; border-top: 1px solid #eee; border-right: 1px solid #eee;}
+.contents .page_content .tab_content input[type="radio"]:checked + label {background: #174cb8; color: #fff; font-weight: bold;}
+.tab_content .conbox {padding: 20px 10px; margin: 0 auto; display: none; font-size: 15px; width: 1000px;}
+.tab_content .conbox p {text-align: left; border-bottom: 1px solid #eee;}
+.tab_content .conbox p .year {color: #174cb8; margin-right: 50px; font-weight: bold;}
+input[id="tab01"]:checked ~ .con1 {display: block;}
+input[id="tab02"]:checked ~ .con2 {display: block;}
+input[id="tab03"]:checked ~ .con3 {display: block;}
+input[id="tab04"]:checked ~ .con4 {display: block;}
+input[id="tab05"]:checked ~ .con5 {display: block;}
+>>>>>>> fdf41fd910e531cde746a0df3596eddc55f59702
