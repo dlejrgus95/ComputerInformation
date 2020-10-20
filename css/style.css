@@ -161,6 +161,11 @@ header .logo {
   white-space: nowrap;
   border-top: 1px solid #ddd;
   padding: 25px 0;
+  text-align: left;
+}
+.notice article p a:hover {
+  color: #1c5ad7;
+  border-bottom: 1px solid #1c5ad7;
 }
 
 .notice article p:first-of-type {

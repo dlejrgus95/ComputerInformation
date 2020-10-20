@@ -136,6 +136,7 @@ header .logo {
   color: #174cb8;
   border-bottom: 5px solid #174cb8;
   display: inline-block;
+  margin-bottom: 30px;
 }
 
 .contents .page_content h2 {
@@ -153,7 +154,6 @@ header .logo {
 
 .contents .page_content p strong {
   font-size: 17px;
-  color: #174cb8;
 }
 
 /* footer */
