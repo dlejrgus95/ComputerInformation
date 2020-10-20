@@ -156,6 +156,14 @@ header .logo {
   font-size: 17px;
 }
 
+.contents .page_content p a:hover {
+  color: #174cb8;
+}
+
+.contents .page_content img {
+  margin: 0 auto;
+}
+
 /* footer */
 footer {
   background: #1d3566;
